@@ -1,0 +1,17 @@
+@import '../../@theme/styles/themes';
+
+@include nb-install-component() {
+    .statitic {
+        float: left;
+        background-color: nb-theme(background-basic-color-2);
+        padding: 0.75rem 0.25rem;
+        border-radius: 0.25rem;
+        margin-left: 3rem ;
+    }
+    nb-card.size-small {
+        height: 13rem; 
+    }
+}
+
+
+

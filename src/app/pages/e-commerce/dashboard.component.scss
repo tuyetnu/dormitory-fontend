@@ -8,6 +8,13 @@
         border-radius: 0.25rem;
         margin-left: 3rem ;
     }
+    .chart {
+        float: left;
+        background-color: nb-theme(background-basic-color-2);
+        border-radius: 0.25rem;
+        margin-left: 1rem ;
+        height: 7rem; 
+    }
     nb-card.size-small {
         height: 13rem; 
     }

@@ -8,52 +8,47 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'IoT Dashboard',
-    icon: 'home-outline',
-    link: '/pages/iot-dashboard',
-  },
-  {
-    title: 'FEATURES',
+    title: 'Chức năng',
     group: true,
   },
+  // {
+  //   title: 'Tiếp đón sinh viên',
+  //   icon: 'layout-outline',
+  //   children: [
+  //     {
+  //       title: 'Import danh sách sinh viên',
+  //       link: '/pages/layout/stepper',
+  //     },
+  //     {
+  //       title: 'List',
+  //       link: '/pages/layout/list',
+  //     },
+  //     {
+  //       title: 'Infinite List',
+  //       link: '/pages/layout/infinite-list',
+  //     },
+  //     {
+  //       title: 'Accordion',
+  //       link: '/pages/layout/accordion',
+  //     },
+  //     {
+  //       title: 'Tabs',
+  //       pathMatch: 'prefix',
+  //       link: '/pages/layout/tabs',
+  //     },
+  //   ],
+  // },
   {
-    title: 'Layout',
-    icon: 'layout-outline',
-    children: [
-      {
-        title: 'Stepper',
-        link: '/pages/layout/stepper',
-      },
-      {
-        title: 'List',
-        link: '/pages/layout/list',
-      },
-      {
-        title: 'Infinite List',
-        link: '/pages/layout/infinite-list',
-      },
-      {
-        title: 'Accordion',
-        link: '/pages/layout/accordion',
-      },
-      {
-        title: 'Tabs',
-        pathMatch: 'prefix',
-        link: '/pages/layout/tabs',
-      },
-    ],
-  },
-  {
-    title: 'Forms',
+    title: 'Tiếp đón sinh viên',
     icon: 'edit-2-outline',
     children: [
       {
-        title: 'Form Inputs',
-        link: '/pages/forms/inputs',
+        title: 'Import danh sách sinh viên',
+        link: '/pages/forms/layouts',
       },
       {
         title: 'Form Layouts',
-        link: '/pages/forms/layouts',
+        link: '/pages/forms/inputs',
       },
       {
         title: 'Buttons',
@@ -66,16 +61,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
   {
-    title: 'UI Features',
+    title: 'Quản lí sinh viên',
     icon: 'keypad-outline',
     link: '/pages/ui-features',
     children: [
       {
-        title: 'Grid',
+        title: 'Danh sách nội trú',
         link: '/pages/ui-features/grid',
       },
       {
-        title: 'Icons',
+        title: 'Thêm sinh viên nội trú',
         link: '/pages/ui-features/icons',
       },
       {
